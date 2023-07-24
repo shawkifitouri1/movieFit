@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/appIcon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.shawkifitouri.movieFit"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3b311d61-dae0-42c5-9cd3-6cd736d423f3"
+      }
     }
   }
 }
